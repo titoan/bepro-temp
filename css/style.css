@@ -68,13 +68,32 @@ header{
 .advances{
     display: flex;
     justify-content: space-around;
+    padding:0 42px 0 42px;    
+    position: absolute;
+    top: 668px;
+    left: 0;
+    right: 0;
+}
+
+.advances-icon{
+    margin-right:19px;
 }
 
 .advances-item{
     display: flex;
     padding: 57px 0 56px 0;
+    border: 1px solid grey;
+    width: 327px;
+    justify-content: center;
+    background-color: #ffffff;
 }
 
-.item-text{
-    
+.item-text:nth-child(1){
+    font-size: 18pt;
+    color: rgba(0, 0, 0, 255);
+}
+
+.item-text:nth-child(2){
+    font-size: 14pt;
+    color: rgba(153, 153, 153, 255);
 }
