@@ -114,9 +114,11 @@ header{
     padding: 0 30px 0 30px;
 }
 
-.goods-4-in-row{
+.goods-4-in-row,
+.goods-2-in-row{
     display: flex;
     justify-content: space-around;
+    margin-bottom:30px;
 }
 
 .goods-popular{       
@@ -136,6 +138,10 @@ header{
     justify-content: center;
     border: 1px solid #d3d3d3;
     width: 296px;
-    height: 296px;    
+    height: 296px;
+}
 
+.goods-new{
+    width: 954px;
+    background-color: #3853d8;
 }
