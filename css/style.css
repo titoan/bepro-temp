@@ -76,13 +76,25 @@ header{
     right: 0;
 }
 
+.advances-item:nth-child(n+2)::before{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    background-color: #d3d3d3;
+    top:35px;
+    /* bottom:0; */
+    left:0;
+}
+
 .advances-icon{
     margin-right:19px;
 }
 
 .border-wrap{
     display: flex;
-    border: 1px solid grey;
+    border: 1px solid #d5d5d6;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -90,6 +102,7 @@ header{
 }
 
 .advances-item{
+    position: relative;
     display: flex;
     padding: 57px 0 56px 0;
     /* border: 1px solid grey; */
@@ -118,6 +131,8 @@ header{
     font-size: 14pt;
     color: rgba(153, 153, 153, 255);
 }
+
+/* Goods */
 
 .goods{
     padding: 0 30px 0 30px;
