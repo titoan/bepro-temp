@@ -80,10 +80,19 @@ header{
     margin-right:19px;
 }
 
+.border-wrap{
+    display: flex;
+    border: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+
 .advances-item{
     display: flex;
     padding: 57px 0 56px 0;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     /* border-radius: 5px; */
     width: 327px;
     justify-content: center;
