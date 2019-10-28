@@ -1,6 +1,3 @@
-body{
-     font-family: 'Montserrat', sans-serif;
-}
 
 header{
     position: relative;
@@ -84,7 +81,6 @@ header{
     height: 80px;
     background-color: #d3d3d3;
     top:35px;
-    /* bottom:0; */
     left:0;
 }
 
@@ -104,9 +100,7 @@ header{
 .advances-item{
     position: relative;
     display: flex;
-    padding: 57px 0 56px 0;
-    /* border: 1px solid grey; */
-    /* border-radius: 5px; */
+    padding: 57px 0 56px 0;    
     width: 327px;
     justify-content: center;
     background-color: #ffffff;
@@ -145,9 +139,9 @@ header{
     margin-bottom:30px;
 }
 
-.goods-popular{       
-    background-color: #232323;
-    /* padding:73px 58px 73px 58px; */
+.goods-popular{     
+    text-align: center;
+    background-color: #232323;  
 }
 
 .goods-popular h2,
@@ -158,14 +152,32 @@ header{
 .goods-item{
     display: flex;
     flex-direction:column;
-    align-items:center;
+    /* align-items:center; */
     justify-content: center;
     border: 1px solid #d3d3d3;
     width: 296px;
     height: 296px;
 }
 
+.img-container{
+    text-align: center;
+}
+
 .goods-new{
     width: 954px;
     background-color: #3853d8;
+}
+
+.goods-item-text{
+    margin-left:30px;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: rgba(153, 153, 153, 255);
+}
+
+.goods-price{
+    color:#3853d8;
+    font-size: 14pt;
 }
